@@ -17,3 +17,14 @@ a:hover{
   font-family: 'Francois One', sans-serif;
   padding: 10px 5px;
 }
+
+#menu-container{
+  background: rgba(31, 135, 210, 0.21);
+}
+.btn-bootshoptrap{
+  background: #52cca1;
+  color: #133127;
+}
+input.form-control:focus{
+  border-color: #1f87d2;
+}
