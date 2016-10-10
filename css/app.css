@@ -1,0 +1,12 @@
+body{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size:  18px;
+}
+#header-container{
+  background: #1f87d2;
+  color:white;
+}
+.titular{
+  font-family: 'Francois One', sans-serif;
+  padding: 10px 5px;
+}
