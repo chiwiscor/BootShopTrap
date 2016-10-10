@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|PT+Sans+Caption" rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-flex.min.css">
     <link rel="stylesheet" href="css/app.css" >
   </head>
   <body>
+    <!--
+      flex-items-TAMAÑO-middle (a nivel de fila) -> alinea verticalmente las columnas
+      flex-TAMAÑO-bottom (a nivel de columna)-> alineacion vertical de la columnas
+      flex-items-TAMAÑO-right (a nivel de fila) -> alineacion horizontal de las columnas
+      text-TAMAÑO-right -> alineacion del texto
+    -->
     <div id="header-container">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-6">
+        <div class="row flex-items-xs-middle">
+          <div class="col-xs">
             <h1 class="titular">BootShopTrap</h1>
           </div>
-          <div class="col-xs-6">
+          <div class="col-xs text-xs-right">
             <a href="#">Iniciar Sesion!!</a>
           </div>
         </div>
