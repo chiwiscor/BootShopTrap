@@ -29,11 +29,12 @@ input.form-control:focus{
   border-color: #1f87d2;
 }
 
-#carosel-container .carousel-item figure{
-  text-align: center;
+#carosel-container .carousel-item figure img{
+  width: 100%;
 }
 #carosel-container .carousel-item figure{
   position: relative;
+  text-align: center;
 }
 
 #carosel-container .carousel-item figure::after{
@@ -80,12 +81,46 @@ input.form-control:focus{
 }
 
 .carousel-caption {
-  background: rgba(143, 55, 39, 0.52);
   text-shadow: 2px 2px 1em black;
   color: #ffedd1;
   border-radius: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.carousel-caption p{
+  background: rgba(143, 55, 39, 0.52);
+  padding: 20px;
+  margin: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+.carousel-caption h3{
+  background: rgba(81, 81, 115, 0.65);
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
+#caracteristicas-container img{
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+#caracteristicas-container{
+  background: #36b3d4;
+  padding: 20px 0;
+  margin-top: -17px;
+  color: white;
+  font-family: 'Francois One', sans-serif;
+}
+@media (max-width:543px) {
+  .carousel-control .icon-next::before,
+  .carousel-control .icon-prev::before{
+    top:-12px;
+  }
+}
+@media (max-width:768px) {
+  .carousel-caption h3{
+    border-radius: 10px;
+    font-size: 18px;
+  }
 }
 
 @media (max-width:900px) {
