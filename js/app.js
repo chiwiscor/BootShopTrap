@@ -20,3 +20,17 @@ $form.submit(function(ev){
   el.addClass("form-control-feedback")
   $formGroup.append(el)
 })
+
+//modal
+
+function mostrarModal(){
+  const mostrar = JSON.parse(localStorage.noMostrarModal)
+  if (!mostrar) {
+    $("#modalOferta").modal()
+  }
+
+
+  $("#btnNel").click(function(ev){
+    localStorage.noMostrarModal =true
+  })
+}
