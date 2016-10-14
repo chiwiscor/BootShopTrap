@@ -2,7 +2,11 @@ body{
   font-family: 'PT Sans Caption', sans-serif;
   font-size:  18px;
 }
-.nav-item a:link, .nav-item a:visited{
+.nav-item a:link,
+.nav-item a:visited,
+#header-container a:link,
+#header-container a:visited
+{
   color: white;
   text-decoration:none;
 }
