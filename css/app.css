@@ -2,7 +2,7 @@ body{
   font-family: 'PT Sans Caption', sans-serif;
   font-size:  18px;
 }
-a,a:link,a:visited{
+.nav-item a:link, .nav-item a:visited{
   color: white;
   text-decoration:none;
 }
@@ -146,12 +146,20 @@ a.list-group-item-action{
 #breadcrumb a{
   color: #296b54;
 }
+.card{
+  border:3px solid rgba(28, 161, 169, 0.43);
+}
+.card-block {
+    padding: 10px 15px;
+    background: rgba(184, 234, 190, 0.29);
+}
 @media (max-width:543px) {
   .carousel-control .icon-next::before,
   .carousel-control .icon-prev::before{
     top:-12px;
   }
 }
+
 @media (max-width:768px) {
   .carousel-caption h3{
     border-radius: 10px;
