@@ -123,6 +123,23 @@ input.form-control:focus{
   background: #eaf7eb;
   margin-top: 10px;
 }
+
+.list-group{
+  margin-top: 20px;
+  border: solid #49e4df 1px;
+  border-radius: 4px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+  background-color: rgb(35, 125, 122);
+  border:none;
+  font-family: 'Francois One', sans-serif;
+}
+a.list-group-item-action{
+  color: #3a3838;
+}
+.tag-default{
+  background-color: #477fab;
+}
 .breadcrumb-item+.breadcrumb-item::before{
   content: ">>";
 }
