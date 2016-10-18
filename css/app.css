@@ -157,6 +157,47 @@ a.list-group-item-action{
     padding: 10px 15px;
     background: rgba(184, 234, 190, 0.29);
 }
+.titulo-producto{
+  font-family: 'Francois One', sans-serif;
+  font-size: 1.3em;
+}
+.descripcion-producto{
+  font-size: .9em;
+  line-height: 18px;
+}
+.titulo-carrito-compras{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+}
+.panel-title{
+  padding: 20px 0;
+  background: rgba(241, 246, 208, 0.62);
+  border-radius: 20px 0;
+  margin-bottom: 2em;
+}
+.panel-body img{
+    margin: 0 auto;
+    display: inherit;
+}
+.panel{
+  border: solid #eaf7eb 2px;
+margin: 2em 0;
+overflow: hidden;
+}
+.producto-container:nth-child(odd){
+  background: rgba(117, 121, 7, 0.17);
+}
+.producto-container:nth-child(even){
+  background: rgba(12, 69, 183, 0.1);
+}
+.producto-container{
+  padding: 20px;
+}
+.panel-footer{
+  padding: 2em;
+    background: #e2f9f2;
+}
 @media (max-width:543px) {
   .carousel-control .icon-next::before,
   .carousel-control .icon-prev::before{
